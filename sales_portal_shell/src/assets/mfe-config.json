@@ -1,0 +1,23 @@
+[
+  {
+    "id": "customers",
+    "name": "Customers",
+    "path": "customer",
+    "url": "http://localhost:4203",
+    "fragmentId": "customers-fragment"
+  },
+  {
+    "id": "orders",
+    "name": "Orders",
+    "path": "order",
+    "url": "http://localhost:4204",
+    "fragmentId": "orders-fragment"
+  },
+  {
+    "id": "timer",
+    "name": "Timer",
+    "path": "timer",
+    "url": "http://localhost:4205",
+    "fragmentId": "counter-fragment"
+  }
+]

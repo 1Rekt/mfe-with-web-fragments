@@ -1,0 +1,17 @@
+[
+  {
+    "id": "single-orders",
+    "name": "Single Fragment - Orders",
+    "file": "single-orders.html"
+  },
+  {
+    "id": "two-columns",
+    "name": "Two Columns - Orders + Customers",
+    "file": "two-columns.html"
+  },
+  {
+    "id": "two-rows",
+    "name": "Two Rows - Customers + Timer",
+    "file": "two-rows.html"
+  }
+]

@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+*.log
+.env
+dist/
+build/
+*.bundle.js
+fragment.log
+host.log
+
+micro-frontends/mfe_sales_customer/.angular
+micro-frontends/mfe_sales_orders/.angular

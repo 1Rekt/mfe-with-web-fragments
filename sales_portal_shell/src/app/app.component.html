@@ -1,0 +1,28 @@
+<div class="app-container">
+  <header class="app-header">
+    <h1>{{ title }}</h1>
+    <div class="template-selector" *ngIf="!isLoading && !error && templates.length > 0">
+      <label for="templateSelect">Template</label>
+      <select
+        id="templateSelect"
+        [value]="selectedTemplateId"
+        (change)="onTemplateSelectionChange($event)">
+        <option *ngFor="let template of templates" [value]="template.id">{{ template.name }}</option>
+      </select>
+    </div>
+  </header>
+
+  <div class="app-body">
+    <div *ngIf="isLoading" class="loading-message">
+      <p>Loading configuration...</p>
+    </div>
+
+    <div *ngIf="error" class="error-message">
+      <p>{{ error }}</p>
+    </div>
+
+    <main class="main-content" *ngIf="!isLoading && !error && isBrowser">
+      <div #templateHost class="template-host"></div>
+    </main>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+{
+  "name": "mfe-workspace",
+  "version": "1.0.0",
+  "description": "Multi-Frontend Micro-Services Workspace",
+  "scripts": {
+    "start": "concurrently \"npm run start:shell\" \"npm run start:customers\" \"npm run start:orders\" \"npm run start:timer\"",
+    "start:shell": "cd sales_portal_shell && npm start",
+    "start:customers": "cd micro-frontends/mfe_customers && npm start",
+    "start:orders": "cd micro-frontends/mfe_orders && npm start",
+    "start:timer": "cd micro-frontends/mfe_timer && npm start",
+    "dev": "concurrently \"npm run dev:shell\" \"npm run dev:customers\" \"npm run dev:orders\" \"npm run dev:timer\"",
+    "dev:shell": "cd sales_portal_shell && npm run dev",
+    "dev:customers": "cd micro-frontends/mfe_customers && npm run dev",
+    "dev:orders": "cd micro-frontends/mfe_orders && npm run dev",
+    "dev:timer": "cd micro-frontends/mfe_timer && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "ORD-001",
+    "customerName": "John Doe",
+    "date": "2024-01-15T10:30:00Z",
+    "total": 1250.50,
+    "status": "Completed",
+    "items": [
+      {
+        "productName": "Laptop",
+        "quantity": 1,
+        "price": 999.99
+      },
+      {
+        "productName": "Mouse",
+        "quantity": 2,
+        "price": 25.25
+      },
+      {
+        "productName": "Keyboard",
+        "quantity": 1,
+        "price": 200.01
+      }
+    ]
+  },
+  {
+    "id": "ORD-002",
+    "customerName": "Jane Smith",
+    "date": "2024-01-16T14:20:00Z",
+    "total": 450.00,
+    "status": "Pending",
+    "items": [
+      {
+        "productName": "Monitor",
+        "quantity": 2,
+        "price": 225.00
+      }
+    ]
+  },
+  {
+    "id": "ORD-003",
+    "customerName": "Bob Johnson",
+    "date": "2024-01-17T09:15:00Z",
+    "total": 89.99,
+    "status": "Completed",
+    "items": [
+      {
+        "productName": "USB Cable",
+        "quantity": 3,
+        "price": 29.99
+      }
+    ]
+  },
+  {
+    "id": "ORD-004",
+    "customerName": "Alice Williams",
+    "date": "2024-01-18T16:45:00Z",
+    "total": 3200.00,
+    "status": "Pending",
+    "items": [
+      {
+        "productName": "Desktop Computer",
+        "quantity": 1,
+        "price": 1500.00
+      },
+      {
+        "productName": "Monitor",
+        "quantity": 2,
+        "price": 225.00
+      },
+      {
+        "productName": "Webcam",
+        "quantity": 1,
+        "price": 1250.00
+      }
+    ]
+  },
+  {
+    "id": "ORD-005",
+    "customerName": "Charlie Brown",
+    "date": "2024-01-19T11:30:00Z",
+    "total": 150.75,
+    "status": "Cancelled",
+    "items": [
+      {
+        "productName": "Headphones",
+        "quantity": 1,
+        "price": 150.75
+      }
+    ]
+  }
+]

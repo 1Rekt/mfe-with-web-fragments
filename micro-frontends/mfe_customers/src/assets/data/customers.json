@@ -1,0 +1,80 @@
+[
+  {
+    "id": "CUST-001",
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1-555-0101",
+    "city": "New York",
+    "address": {
+      "street": "123 Main Street",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001"
+    }
+  },
+  {
+    "id": "CUST-002",
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "phone": "+1-555-0102",
+    "city": "Los Angeles",
+    "address": {
+      "street": "456 Oak Avenue",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipCode": "90001"
+    }
+  },
+  {
+    "id": "CUST-003",
+    "name": "Bob Johnson",
+    "email": "bob.johnson@example.com",
+    "phone": "+1-555-0103",
+    "city": "Chicago",
+    "address": {
+      "street": "789 Elm Street",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601"
+    }
+  },
+  {
+    "id": "CUST-004",
+    "name": "Alice Williams",
+    "email": "alice.williams@example.com",
+    "phone": "+1-555-0104",
+    "city": "Houston",
+    "address": {
+      "street": "321 Pine Road",
+      "city": "Houston",
+      "state": "TX",
+      "zipCode": "77001"
+    }
+  },
+  {
+    "id": "CUST-005",
+    "name": "Charlie Brown",
+    "email": "charlie.brown@example.com",
+    "phone": "+1-555-0105",
+    "city": "Phoenix",
+    "address": {
+      "street": "654 Maple Drive",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zipCode": "85001"
+    }
+  },
+  {
+    "id": "CUST-006",
+    "name": "Diana Prince",
+    "email": "diana.prince@example.com",
+    "phone": "+1-555-0106",
+    "city": "Philadelphia",
+    "address": {
+      "street": "987 Cedar Lane",
+      "city": "Philadelphia",
+      "state": "PA",
+      "zipCode": "19101"
+    }
+  }
+]
